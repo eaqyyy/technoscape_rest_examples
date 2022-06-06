@@ -21,16 +21,12 @@ func A_ii() {
 }
 
 func B_i() {
-	// jgn barbar nulis code kek gini
-	//var x string
-	//x = "Iqi"
-
 	var name string
 	name = "Iqi"
 
 	var age int
 	age = 23
-	// float32 & float64
+	
 	var weight float32
 	weight = 71.5
 
@@ -41,14 +37,14 @@ func B_i() {
 	// int64
 	// uint8/16/32/64 (only positive integers)
 
-	var filmCollections int32 // kalo pake int8 akan break, gacukup nampung val 1k
+	var filmCollections int32
 	filmCollections = 1_000
 
 	var isStudent bool
 	isStudent = false
 
 	car := "Porsche"
-	fuelPrice := 50_000 // akan break kalo pake koma. ideally, penghitungan uang pake BigRat/Decimal
+	fuelPrice := 50_000 
 	isEuropeanCar := true
 
 	fmt.Println("Name: ", name)
@@ -98,8 +94,6 @@ func D() {
 	fmt.Println("Your name: ", name)
 	fmt.Println("Your age: ", age)
 	fmt.Println("Your weight: ", weight)
-
-	// kalo namanya pake 2 kata, pas scan pasti break, harus pake scanln
 
 	fmt.Println("Please input your name, age, and weight, separated by spaces")
 	fmt.Scan(&name, &age, &weight)
@@ -169,7 +163,6 @@ func G_H() {
 	fmt.Println(array1[0])
 
 	// array[6] is impossible because out of bound
-
 	slice := make([]int, 5)
 
 	// slice[5] is impossible because array starts from 0, out of range
