@@ -9,7 +9,7 @@ import (
 // A. ii -> bikin folder helpers, isinya helloName
 
 // Golang packages rules:
-// * Write source code in Program "files/go/src" (windows) or "home/go/src" (mac)
+// * Write source code in "Program files/go/src" (windows) or "home/go/src" (mac)
 // * Main func has to be written "package main"
 // * There can be no duplicating func name in the same package
 // * A file can directly access another file's func if they're on the same package, else, importing is required.
